@@ -34,11 +34,15 @@ Aping provides an interactive terminal interface that allows users to ping hosts
    ```bash
    sudo apt-get install dig whois curl jq
    ```
-3. **Compilation**
+   Or
+   ```bash
+   sudo apt-get install dnsutils whois curl jq
+   ```
+4. **Compilation**
    ```bash
    gcc -o Aping Aping.c
    ```
-4. **Run Aping (requires root privileges):**
+5. **Run Aping (requires root privileges):**
    ```bash
    sudo ./Aping
    ```
